@@ -57,7 +57,7 @@ typedef struct {
 	int unk7;
 } SceIoMountPoint;
 
-static SceIoDevice hybrid = { "grw0:", "exfatgrw", "sdstor0:int-lp-ina-os", "sdstor0:int-lp-ina-os", 0xA00 };
+static SceIoDevice hybrid = { "os1:", "exfatgrw", "sdstor0:int-lp-ina-os", "sdstor0:int-lp-ina-os", 0xA00 };
 
 static SceIoMountPoint *(* sceIoFindMountPoint)(int id) = NULL;
 
